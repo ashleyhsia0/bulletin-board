@@ -37,7 +37,9 @@
                     return (
                         <div className="note" 
                              style={this.style}>
-                            <textarea ref="newText"></textarea>
+                            <textarea ref="newText"
+                                      defaultValue={this.props.children}>
+                            </textarea>
                             <button onClick={this.save}>SAVE</button>
                         </div>
                     );
