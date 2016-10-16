@@ -5,5 +5,5 @@ import './index.css';
 
 ReactDOM.render(
   <Board count={10} />,
-  document.getElementById('root')
+  document.getElementById('react-container')
 );
